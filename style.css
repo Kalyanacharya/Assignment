@@ -1,7 +1,5 @@
 body{
-	background-color:grey;
-	margin:50px;
-	background-image:url("boom.jpeg")
+	background-color:Grey;
 }
 .new{
 	background-color:pink;
@@ -12,23 +10,89 @@ body{
 	color:white;
 	Padding:30px;
 	font-size:40px;
-	background-image:url("boom.jpeg")
-	
 }
 .middle{
-	background-color:red;
+	background-color:Grey;
 	margin:20px;
+	text-align:center;
 	font-weight:lighter;
+	color:white;
 }
 .hi{
-	background-color:cyan;
+	background-color:Grey;
 	font-size:20px;
+	margin:30px;
+	background:linear-gradient(Black,grey);
+	color:white;
 }
 .foot{
-	background-color:white;
+	background-color:grey;
+    margin:50px;
 	font-weight:lighter;
 	text-align:center;
+	background:linear-gradient(to bottom ,white);
 	text-shadow:1px 1px grey;
-	padding-top:0px;
-	margin-top:50px;
+	padding:10px,5px,10px,5px;
+	font-family: 'Lobster',cursive;
+}
+.hi1{
+	background-color:Red;
+}
+.second-bg{
+	background-color:Grey;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 500px auto auto auto;
+    grid-template-rows: 100px 200px 200px 30px ;
+    grid-gap:10px;
+    padding: 20px;  
+    text-align:left;
+}
+.header {
+    grid-column-start: 1;
+    grid-column-end:  25;
+    grid-row-start: 1;
+    grid-row-end: 1;
+	Margin:auto 200px auto 200px;
+	background:linear-gradient(pink,grey);
+	text-align: center;
+
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end:7;  	
+    text-align:center;
+    background:linear-gradient(pink,grey);
+	
+}
+
+.item2 {
+    grid-column-start: 2;
+	grid-column-end:20;
+    grid-row-start: 2; 
+    grid-row-end: 7; 
+    text-align:center;
+	width:800px;
+	height:500px;
+	background:linear-gradient(white,grey);
+}
+.me{
+	text-align:left;
+	padding-left:10px;
+}
+.img{
+	position:center-top;
+	padding-left:400px;
+}
+.img2{
+	position:absolute;
+    top:200px;
+	right:100px;
+	padding-right:300px;
 }
