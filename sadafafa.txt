@@ -1,0 +1,45 @@
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end:7;  	
+    text-align:center;
+    background:linear-gradient(pink,grey);
+	
+}
+
+.item2 {
+    grid-column-start: 2;
+	grid-column-end:20;
+    grid-row-start: 2; 
+    grid-row-end: 7; 
+    text-align:center;
+	width:800px;
+	height:500px;
+	background:linear-gradient(white,grey);
+}
+.me{
+	text-align:left;
+	padding-left:10px;
+	
+	
+	
+	
+	}
+.img{
+	position:relative;
+	padding-left:400px;
+	padding-top:50px;
+}
+.img2{
+	position:static;
+    top:200px;
+	right:100px;
+	padding-right:300px;
+	
+	<div class="img"><img src="placceholder.png" height="400" width="300" alt="Portfolio Image 1">
+</div>
+<div class="img2">
+<img src="placceholder.png" height="400" width="300" alt="Portfolio Image 2">
+</div>
