@@ -4,42 +4,65 @@
 	box-sizing: border-box;
 }
 body{
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Bga.jpg);
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bg1.jpg);
 	background-repeat:no-repeat;
 	height:170vh;
 	background-size:cover;
 	background-position:center;
 }
-ul{
-	float:right;
-	list-style-type:none;
-	margin-top:15px;
-	padding:20px;
+
+
+.main{
+	width: 100%;
+
+    padding-left: 3%;
+    padding-right: 3%;
+    box-sizing: border-box;
+    overflow: hidden;
 }
-ul li{
-	display:inline-block;
-	margin-top:15px;
+
+.navbar {
+	width: 100%;
+    display: flex;
+    align-items: center;
 }
-ul li a{
-	text-decoration:none;
-	color:#fff;
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+    margin: 30px 0px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px  ;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
 	padding:5px 20px;
 	border:1px solid transparent;
 }
-ul li a:hover{
-	background-color:#fff;
+
+nav ul li a:hover {
+    background-color:#fff;
 	color:#000;
 	transition:0.6s ease;
 }
+
 ul li.active a{
 	background-color:#fff;
 	color:#000;
 }
-.logo img{
-	float:left;
-	width:150px;
-	height:auto;	
-}
+
 .title h1 {
 	color:white;
 	Font-size:40px;
@@ -70,26 +93,21 @@ ul li.active a{
     padding: 20px;  
     text-align:left;
 }
-.header {
-	Margin:auto 200px auto 200px;
-    grid-column-start: 1;
-    grid-column-end:  25;
-    grid-row-start: 1;
-    grid-row-end: 1;
-	text-align: center;
-}	
-.box {
-    width: 72%;
+
+.portfoliobox {
+    width: 76%;
     height: 600px;
-    border: 2px solid black;
-    background-color: red;
-    margin-top: 150px;
-    margin-left: 18%;
+    
+    background-color: #e4f1fe;
+    margin-top: 50px;
+    margin-left: 15%;
+	opacity: 90%;
 }
 
-.box h2 {
+.portfoliobox h2 {
+	padding: 20px;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 
@@ -97,7 +115,8 @@ ul li.active a{
     box-sizing: border-box;
     float: left;
     width: 50%;
-    padding: 20px;
+	padding-top: 20px;
+    padding-left: 36px;
 }
 
 .column::after {
@@ -106,7 +125,7 @@ ul li.active a{
     display: table;
 }
 .contact-form{
-  margin-top:120px;
+  margin-top:180px;
   width: 85%;
   max-width: 600px;
   background: #f1f1f1;
@@ -157,10 +176,12 @@ ul li.active a{
 
 .box-1{
 	background-color:#26252d;
-	width:22%;
+	width:18%;
 	float:left;
-	height:900px;
-	margin-top:190px;
+	height:850px;
+	margin-top:80px;
+	margin-left: 190px;
+	opacity: 0.8;
 	
 
 }
@@ -173,9 +194,10 @@ ul li.active a{
 	width:55%;
 	float:left;
 	padding-left:50px;
-	margin-top:100px;
+	margin-top:80px;
 	background-color:white;
-	height:900px;
+	height:850px;
+	opacity: 0.8;
 	
 }
 .intro h1{
